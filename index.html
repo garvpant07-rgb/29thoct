@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160a18">
+  <title>For Aashu, With Love ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+
+  <audio id="ourSong" src="song.mp3" preload="auto" loop></audio>
+
+  <button id="musicButton" class="music-button" type="button" aria-label="Play or pause our song">
+    <span id="musicIcon">♫</span>
+    <span id="musicLabel">Play our song</span>
+  </button>
+
+<section class="screen active" id="welcome">
+    <p class="eyebrow">JUST YOU & ME, AASHU ♡</p>
+
+    <h1 class="hero-title">Our Little World</h1>
+
+    <p class="subtitle">Just you, me, and a thousand stars ✨</p>
+
+    <img src="couple.png" alt="Us under the stars" class="couple-image">
+
+    
+</section>
+ <main class="story">
+
+    <!-- 1: THE BEGINNING -->
+    <section class="screen" id="home">
+      <p class="eyebrow">A LITTLE WORLD, JUST FOR YOU</p>
+      <div class="moon">☾</div>
+      <div class="mini-hearts">♡　✧　♡</div>
+      <h1 class="hero-title">For my<br><em>Aashu.</em></h1>
+      <p class="subtitle">Some things are too important<br>to leave unsaid.</p>
+      <div class="kitty-hello">
+  <img src="cat.png.png" alt="Aashu's cute little cat">
+</div>
+      <p class="soft">Your tiny guide has been waiting for you.</p>
+      <button class="button primary" id="startButton">Come, let me show you something ♡</button>
+      <button class="button ghost" id="introMusicButton">♫ Play our song first</button>
+      <p class="music-hint" id="musicHint">Put our song in this website's folder to hear it here.</p>
+      <p class="page-count">01 / 08</p>
+    </section>
+
+    <!-- 2: THE FEELING -->
+    <section class="screen" id="hello">
+      <p class="eyebrow">CHAPTER ONE · STILL YOU</p>
+      <div class="illustration">🌷</div>
+      <h2>After everything,<br><em>it's still you.</em></h2>
+      <p class="story-text">
+        I could have a thousand things to say, and still struggle to explain
+        what you mean to me. But I want to try, because you deserve to hear it
+        from me — clearly, honestly, and with all my heart.
+      </p>
+      <div class="quote-card">
+        "Sometimes, finding your way back means learning how to love each other better."
+      </div>
+      <p class="story-text">
+        This isn't about pretending nothing ever hurt. It's about believing
+        that something beautiful can still grow when two people are willing
+        to care for it.
+      </p>
+      <button class="button primary" data-next="reasons">There's more I want you to know →</button>
+      <button class="button ghost" data-next="home">← Back</button>
+      <p class="page-count">02 / 08</p>
+    </section>
+
+    <!-- 3: WHY YOU -->
+    <section class="screen" id="reasons">
+      <p class="eyebrow">CHAPTER TWO · MY FAVOURITE PERSON</p>
+      <h2>It's you, in a thousand<br><em>little ways.</em></h2>
+      <p class="story-text">Not because you're perfect. You don't have to be. I love the person you are.</p>
+
+      <div class="reason-grid">
+        <article class="reason-card">
+          <span>🌸</span>
+          <h3>Your real self</h3>
+          <p>You don't need to pretend to be anyone else with me. I want the real you.</p>
+        </article>
+        <article class="reason-card">
+          <span>🦋</span>
+          <h3>Your little ways</h3>
+          <p>The little things you say and do that stay with me long after the moment ends.</p>
+        </article>
+        <article class="reason-card">
+          <span>🌙</span>
+          <h3>Our connection</h3>
+          <p>The memories, the laughs, the familiar feeling of being close to you.</p>
+        </article>
+        <article class="reason-card">
+          <span>💗</span>
+          <h3>Our possibility</h3>
+          <p>The chance to understand each other more deeply and make something stronger together.</p>
+        </article>
+      </div>
+
+      <p class="soft">I don't want a perfect person. I want an honest, real, growing love.</p>
+      <button class="button primary" data-next="dream">Imagine our next chapter →</button>
+      <button class="button ghost" data-next="hello">← Back</button>
+      <p class="page-count">03 / 08</p>
+    </section>
+
+    <!-- 4: THE NEXT CHAPTER -->
+    <section class="screen" id="dream">
+      <p class="eyebrow">CHAPTER THREE · US, GOING FORWARD</p>
+      <div class="dream-moon">🌙</div>
+      <h2>I don't need perfect.<br><em>I want real.</em></h2>
+
+      <div class="dream-card">
+        <p>More honest conversations.</p>
+        <p>More laughing over the silliest things.</p>
+        <p>More listening, especially when it's difficult.</p>
+        <p>More understanding instead of assumptions.</p>
+        <p>More little moments where we remind each other that we're on the same team.</p>
+        <div class="divider-heart">✧　♡　✧</div>
+        <p class="dream-ending">And when something goes wrong, I want us to face the problem together — not turn against each other.</p>
+      </div>
+
+      <p class="story-text">
+        We can't rewrite everything that happened. But we can choose what we
+        learn from it and how we treat each other from here.
+      </p>
+      <button class="button primary" data-next="letter">There's something I need to tell you 💌</button>
+      <button class="button ghost" data-next="reasons">← Back</button>
+      <p class="page-count">04 / 08</p>
+    </section>
+
+    <!-- 5: THE LONG LETTER -->
+    <section class="screen" id="letter">
+      <p class="eyebrow">CHAPTER FOUR · MY HEART, WITHOUT FILTERS</p>
+      <div class="envelope">💌</div>
+      <h2>For you, <em>my Aashu.</em></h2>
+
+      <article class="letter-paper">
+        <p class="letter-greeting">My babay, Aashu ♡</p>
+
+        <p>
+          I don't even know where to begin, because there's so much I want
+          you to understand, and somehow the words still feel smaller than
+          everything I feel for you.
+        </p>
+
+        <p>
+          I love you. I love you so much. And I don't want those words to be
+          something I say only when everything is going perfectly. I want
+          them to mean something in the ordinary moments too — when we're
+          talking about nothing, when we're laughing, when one of us is
+          having a difficult day, and when life feels a little complicated.
+        </p>
+
+        <p>
+          We've had our distance. We've had our hurt. We've had a chapter
+          that I wish had been easier for both of us. I can't act like none
+          of that happened, and I don't want us to forget what it taught us.
+          But I also don't want the hardest parts of our story to be the only
+          things that define it.
+        </p>
+
+        <p>
+          If we're finding our way back to each other, I want us to do it
+          properly. Not because we're scared of being apart, not because
+          we're trying to force things to be how they used to be, but because
+          we're choosing each other with more understanding than before.
+          I want us to build something that feels right for both of us.
+        </p>
+
+        <p>
+          Babay, please be yourself with me. You don't have to hide your
+          personality, your silly side, your feelings, your opinions, or the
+          parts of you that you think might be too much. I want to know the
+          real you. I want you to feel that you can speak honestly with me,
+          even when what you have to say isn't easy to hear.
+        </p>
+
+        <p>
+          And I want to give you that same honesty in return. I want to be
+          better at listening instead of assuming, communicating instead of
+          going quiet, and understanding your feelings instead of only
+          thinking about my own. I know love isn't just about saying the
+          right things. It's about what we do, especially when things get
+          difficult.
+        </p>
+
+        <p>
+          If there's an issue between us, let's talk about it. Let's give
+          each other room to explain, to listen, to apologise when we need
+          to, and to find a solution together. I don't expect us to agree
+          on everything. I just want us to remember that the problem is
+          something we can face together, with effort from both of us.
+        </p>
+
+        <p>
+          I want to do the things I should have done before. Not just say
+          that I'll change, but show you through my actions. I want to learn
+          from what went wrong, take responsibility for my part, and keep
+          showing up for us. I know trust and closeness grow through
+          consistency, and I want to give them the care they deserve.
+        </p>
+
+        <p>
+          I can't promise that we'll never have another misunderstanding.
+          We're human, and we'll keep learning. But I can promise that I
+          want to approach our relationship with sincerity, patience, and
+          the willingness to work through things with you. I want both of us
+          to feel loved, respected, heard, and safe being ourselves.
+        </p>
+
+        <p>
+          More than anything, I don't want us to take each other for granted.
+          I want us to appreciate the little things. I want us to keep
+          choosing honesty. I want us to make time for each other, celebrate
+          each other's happiness, and remember that being together means
+          contributing to the relationship together.
+        </p>
+
+        <p>
+          And Aashu, I want you to know that you don't have to earn my
+          affection by being perfect. Be you. Tell me what you feel. Let me
+          know what you need. Let yourself laugh loudly, be silly, have
+          difficult days, and grow into whoever you want to become. I want
+          to love you as a real person, not as an idea of who I think you
+          should be.
+        </p>
+
+        <p>
+          I love you, babay. I want to be close to you again, to make new
+          memories with you, and to give this chapter the honesty and effort
+          it deserves. I want us to be real with each other, faithful to our
+          promises, gentle with each other's hearts, and willing to work
+          together when something needs fixing.
+        </p>
+
+        <p>
+          We don't have to figure out our entire future in one day. We can
+          take it one conversation, one decision, one little moment at a
+          time. What matters to me is that we both mean it, that we both
+          contribute, and that we keep treating this love as something
+          worth caring for.
+        </p>
+
+        <p>
+          If I could ask for one thing, it would be this: let's not give up
+          on talking to each other when things get hard. Let's not forget
+          the friendship, the softness, and the love underneath everything.
+          Let's keep learning how to be better for ourselves and for each
+          other.
+        </p>
+
+        <p>
+          I love you so much, Aashu. I don't want to go back and repeat the
+          past. I want us to move forward and make something new from
+          everything we've learned — something honest, warm, mutual, and
+          real.
+        </p>
+
+        <p class="letter-sign">
+          Here's to us, and to a gentler new chapter.<br>
+          <strong>Forever your Garve, with all my love. ♡</strong>
+        </p>
+      </article>
+
+      <p class="soft">Take your time, babay. There is one more little thing for you. 🌷</p>
+      <button class="button primary" data-next="question">One last thing I want to ask you →</button>
+      <button class="button ghost" data-next="dream">← Read the previous chapter</button>
+      <p class="page-count">05 / 08</p>
+    </section>
+
+    <!-- 6: A GENTLE QUESTION -->
+    <section class="screen" id="question">
+      <p class="eyebrow">CHAPTER FIVE · FROM HERE, TOGETHER?</p>
+      <div class="big-heart">♥</div>
+      <h1 class="proposal-title">Can we give<br><em>us another chance?</em></h1>
+      <p class="story-text">
+        Not to pretend the past never happened, but to learn from it.
+        To be real with each other, work through problems together,
+        and give our love the care it deserves.
+      </p>
+      <p class="soft">I love you as you are, Aashu. I want us both to feel sure, heard, and loved. ♡</p>
+
+      <div class="answer-buttons">
+        <button class="button primary" id="yesButton">Let's try, together 💗</button>
+        <button class="button secondary" id="thinkButton">I need a little time 🌷</button>
+      </div>
+
+      <p id="answerMessage" class="response" aria-live="polite"></p>
+      <div id="sadKitty" class="sad-kitty hidden">🐈🎀 <span>♡</span></div>
+
+      <button class="button ghost" data-next="letter">← Back to my letter</button>
+      <p class="page-count">06 / 08</p>
+    </section>
+
+    <!-- 7: THE LILY BOUQUET -->
+    <section class="screen" id="bouquet">
+      <p class="eyebrow">CHAPTER SIX · SIX LITTLE PROMISES</p>
+      <h2>A bouquet for<br><em>my Aashu.</em></h2>
+      <p class="story-text">Tap each lily to let it bloom. Each flower holds something I want you to know. 🌸</p>
+
+      <div class="bouquet-wrap">
+        <svg class="bouquet" viewBox="0 0 360 330" role="img" aria-label="Six white lilies with blush pink centres">
+          <defs>
+            <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#fffdfd"/>
+              <stop offset="55%" stop-color="#fff0f6"/>
+              <stop offset="100%" stop-color="#e9b4ce"/>
+            </linearGradient>
+            <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#a9c69c"/>
+              <stop offset="100%" stop-color="#466d55"/>
+            </linearGradient>
+            <radialGradient id="centre">
+              <stop offset="0%" stop-color="#ffb6d8"/>
+              <stop offset="100%" stop-color="#d64d91"/>
+            </radialGradient>
+          </defs>
+
+          <path class="stem" d="M180 300 Q170 210 105 110"/>
+          <path class="stem" d="M180 300 Q185 205 180 75"/>
+          <path class="stem" d="M180 300 Q200 210 255 110"/>
+          <path class="stem" d="M180 300 Q130 230 65 175"/>
+          <path class="stem" d="M180 300 Q220 225 300 175"/>
+          <path class="stem" d="M180 300 Q180 230 180 150"/>
+
+          <path class="leaf" d="M180 255 Q110 205 105 245 Q135 265 180 255Z"/>
+          <path class="leaf" d="M185 230 Q255 185 260 220 Q225 245 185 230Z"/>
+          <path class="leaf" d="M175 275 Q125 245 130 280 Q155 295 175 275Z"/>
+          <path class="leaf" d="M190 270 Q250 235 245 270 Q215 290 190 270Z"/>
+
+          <g class="lily" data-flower="0" tabindex="0" role="button" aria-label="Bloom lily one">
+            <path class="petal p1" d="M105 112 Q56 81 68 34 Q104 45 105 112Z"/>
+            <path class="petal p2" d="M105 112 Q72 60 105 24 Q131 64 105 112Z"/>
+            <path class="petal p3" d="M105 112 Q114 55 151 44 Q157 83 105 112Z"/>
+            <path class="petal p4" d="M105 112 Q147 85 166 111 Q141 139 105 112Z"/>
+            <path class="petal p5" d="M105 112 Q78 139 51 119 Q69 96 105 112Z"/>
+            <circle class="flower-centre" cx="105" cy="104" r="9"/>
+            <path class="stamen" d="M105 104 L91 82 M105 104 L117 79 M105 104 L130 96"/>
+          </g>
+
+          <g class="lily" data-flower="1" tabindex="0" role="button" aria-label="Bloom lily two">
+            <path class="petal p1" d="M180 78 Q139 46 151 10 Q182 22 180 78Z"/>
+            <path class="petal p2" d="M180 78 Q166 28 198 5 Q215 41 180 78Z"/>
+            <path class="petal p3" d="M180 78 Q205 35 235 40 Q228 72 180 78Z"/>
+            <path class="petal p4" d="M180 78 Q228 70 235 97 Q205 116 180 78Z"/>
+            <path class="petal p5" d="M180 78 Q148 105 127 84 Q146 60 180 78Z"/>
+            <circle class="flower-centre" cx="180" cy="73" r="9"/>
+            <path class="stamen" d="M180 73 L170 51 M180 73 L196 48 M180 73 L205 69"/>
+          </g>
+
+          <g class="lily" data-flower="2" tabindex="0" role="button" aria-label="Bloom lily three">
+            <path class="petal p1" d="M255 112 Q209 79 221 37 Q253 47 255 112Z"/>
+            <path class="petal p2" d="M255 112 Q237 59 269 25 Q288 64 255 112Z"/>
+            <path class="petal p3" d="M255 112 Q283 54 315 63 Q307 96 255 112Z"/>
+            <path class="petal p4" d="M255 112 Q298 90 316 115 Q288 138 255 112Z"/>
+            <path class="petal p5" d="M255 112 Q221 142 201 119 Q220 95 255 112Z"/>
+            <circle class="flower-centre" cx="255" cy="105" r="9"/>
+            <path class="stamen" d="M255 105 L244 83 M255 105 L270 80 M255 105 L279 98"/>
+          </g>
+
+          <g class="lily" data-flower="3" tabindex="0" role="button" aria-label="Bloom lily four">
+            <path class="petal p1" d="M65 176 Q26 149 34 114 Q63 122 65 176Z"/>
+            <path class="petal p2" d="M65 176 Q45 132 70 104 Q89 138 65 176Z"/>
+            <path class="petal p3" d="M65 176 Q91 134 119 144 Q109 169 65 176Z"/>
+            <path class="petal p4" d="M65 176 Q107 159 119 182 Q94 203 65 176Z"/>
+            <path class="petal p5" d="M65 176 Q37 201 18 181 Q35 161 65 176Z"/>
+            <circle class="flower-centre" cx="65" cy="170" r="8"/>
+            <path class="stamen" d="M65 170 L55 151 M65 170 L79 147 M65 170 L88 163"/>
+          </g>
+
+          <g class="lily" data-flower="4" tabindex="0" role="button" aria-label="Bloom lily five">
+            <path class="petal p1" d="M300 176 Q261 149 270 114 Q298 122 300 176Z"/>
+            <path class="petal p2" d="M300 176 Q281 132 305 104 Q325 138 300 176Z"/>
+            <path class="petal p3" d="M300 176 Q326 134 352 144 Q344 169 300 176Z"/>
+            <path class="petal p4" d="M300 176 Q341 159 353 182 Q328 203 300 176Z"/>
+            <path class="petal p5" d="M300 176 Q272 201 253 181 Q270 161 300 176Z"/>
+            <circle class="flower-centre" cx="300" cy="170" r="8"/>
+            <path class="stamen" d="M300 170 L290 151 M300 170 L314 147 M300 170 L323 163"/>
+          </g>
+
+          <g class="lily" data-flower="5" tabindex="0" role="button" aria-label="Bloom lily six">
+            <path class="petal p1" d="M180 158 Q138 129 150 93 Q180 103 180 158Z"/>
+            <path class="petal p2" d="M180 158 Q163 110 192 83 Q211 119 180 158Z"/>
+            <path class="petal p3" d="M180 158 Q207 111 237 122 Q228 150 180 158Z"/>
+            <path class="petal p4" d="M180 158 Q224 140 238 163 Q212 185 180 158Z"/>
+            <path class="petal p5" d="M180 158 Q149 183 129 163 Q148 143 180 158Z"/>
+            <circle class="flower-centre" cx="180" cy="152" r="8"/>
+            <path class="stamen" d="M180 152 L170 133 M180 152 L195 129 M180 152 L203 145"/>
+          </g>
+
+          <path class="ribbon" d="M143 276 Q180 295 217 276 L206 310 Q180 326 154 310Z"/>
+          <path class="ribbon-knot" d="M180 291 Q159 271 151 286 Q157 303 180 297 Q203 303 209 286 Q201 271 180 291Z"/>
+        </svg>
+      </div>
+
+      <div class="flower-progress">
+        <span id="flowerCount">0 of 6 lilies have bloomed</span>
+        <div class="progress-track"><div id="progressFill"></div></div>
+      </div>
+
+      <article class="note-card" id="flowerNote" aria-live="polite">
+        <span class="note-emoji">🌷</span>
+        <p>Tap a lily to open your first little note, babay.</p>
+      </article>
+
+      <button class="button primary hidden" id="finalLetterButton">Open your last letter 💌</button>
+      <button class="button ghost" data-next="question">← Back to our question</button>
+      <p class="page-count">07 / 08</p>
+    </section>
+
+    <!-- 8: THE LAST LETTER -->
+    <section class="screen" id="final">
+      <p class="eyebrow">ONE LAST LITTLE THING</p>
+      <div class="final-sparkle">✨ ♡ ✨</div>
+      <h1 class="hero-title final-title">My Aashu,<br><em>my babay.</em></h1>
+
+      <article class="final-card">
+        <p class="letter-greeting">One last thing I want you to remember.</p>
+        <p>I love you so much. Not just the idea of us, not just the happy memories, but you — the real person behind all of it.</p>
+        <p>I want us to keep being honest, even when honesty takes courage. I want us to listen to understand, not just to answer. And when we make mistakes, I want us to take responsibility, learn, and try again with genuine effort from both sides.</p>
+        <p>I want to love you in ways you can feel: in patience, in consistency, in little acts of care, in the way I listen, and in the way I make room for your feelings. I want you to be yourself with me, and I want to be someone you can be real with too.</p>
+        <p>We don't need to know every answer today. We just need to mean what we say, respect each other, and keep building something that feels good for both of us.</p>
+        <p>Thank you for being you, Aashu. If we're choosing this next chapter together, I want to treat it with the care, truth, and love it deserves.</p>
+        <p class="letter-sign">A little more understanding, a little more patience, and a whole lot of love.<br><strong>Yours, Garve ♡</strong></p>
+      </article>
+
+      <div class="final-heart">♡</div>
+      <p class="soft">Our story doesn't need to be perfect to be meaningful. Let's keep making it real. 🌷</p>
+      <button class="button primary" id="replayButton">Walk through our little world again ↻</button>
+      <p class="page-count">08 / 08</p>
+    </section>
+
+  </main>
+
+  <!-- The little guide cat stays with her through the story -->
+  <div class="cat-companion" id="catCompanion" aria-live="polite">
+    <div class="cat-bubble" id="catBubble">This way, Aashu ♡</div>
+    <div class="walking-cat" id="walkingCat">
+      <span class="cat-body">🐈</span><span class="cat-bow">🎀</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
